@@ -1,18 +1,3 @@
-name: Dockerfile Build Check
-
-on:
-  pull_request:
-    branches-ignore: ['main']
-
-jobs:
-  docker-build-check:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Dockerfile Validation
-        uses: actions/checkout@v5
-        run: docker build --check .
-
 name: Create and Publish a Docker Image
 
 on:
