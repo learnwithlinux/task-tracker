@@ -27,3 +27,6 @@ A simple Flask web app for adding/viewing tasks. Use this to practice SRE workfl
 - CI/CD: Update `deploy.yml` secrets and push to trigger.
 
 For Kubernetes: Use the Dockerfile as base for a Deployment YAML.
+
+## Deployment
+- Uses GitHub Actions for Docker build and image push to registry
